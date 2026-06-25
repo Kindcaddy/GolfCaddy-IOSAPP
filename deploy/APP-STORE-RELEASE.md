@@ -1,4 +1,4 @@
-# KindCaddy App Store Release Runbook
+# KindCaddy App Store Release Runbook(Only if you want to Commercialize it, otherwise, testflight is pretty good)
 
 End-to-end guide for shipping KindCaddy from a fresh Xcode build all the way to the public App Store, including the TestFlight beta path along the way.
 
