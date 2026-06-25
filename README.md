@@ -118,7 +118,7 @@ Native SwiftUI app in `ios/KindCaddy/`. Uses on-device speech recognition (STT) 
 - **Voice round**: Push-to-talk mic button, live transcript, caddy response with TTS playback.
 - **Voice commands**: "new round", "hole 7", "weather 72 wind 10 southwest", "score 4", "shot 7i 155 right", "scorecard", "summary".
 
-## KindaWu (Desktop Voice App)
+## Voice APP
 
 Use your voice from the terminal. Uses OpenAI Whisper for STT and OpenAI TTS for speech.
 
