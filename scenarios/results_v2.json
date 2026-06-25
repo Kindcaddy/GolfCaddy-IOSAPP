@@ -1,0 +1,134 @@
+[
+  {
+    "scenario_id": "baseline_approach",
+    "name": "Standard Approach Shot",
+    "input": "162 yards to the pin, sitting on the fairway, good lie. Pin is middle of the green.",
+    "response": "**Club:** 7-iron\n**Target:** Aim dead center-left of the pin (about 5 yards left)\n**Reasoning:** \"Alright Jimmy, let's crunch the numbers for this 162-yard approach. You're on a good lie in the fairway, so we can trust your standard carry.\n\nHere's the breakdown:\n*   **Raw Distance:** Your 7-iron goes **155 yards carry**. That leaves us 7 yards short of the pin.\n*   **The Adjustment:** We need to account for a few things. First, it's 72\u00b0F, so standard conditions apply. Second, you've got a slight 5mph tailwind from the South (assuming we're facing generally North/South or similar, but even if it's just a light breeze), that usually adds 3-4 yards of roll or flight, bringing us to roughly **158-159 effective distance**.\n*   **The 'Jimmy' Factor:** This is the big one. You've got a fade shape. If we hit dead at the pin, your ball will drift right. Since you also tend to miss right with irons generally, and you pull short under pressure, hitting a 7-iron dead-center risks leaving it 10 yards short of the hole on the right side.\n*   **The Math:** To get this close, we need to hit a club that lands at the pin but allows for the fade. If I tell you to play your 6-iron (168yd carry), that's 6 yards too long after accounting for the wind and your tendency to miss right. If I tell you to play the 7-iron (155yd), we are 7 yards short.\n*   **The Decision:** We're going to hit a **7-iron**. But here's the key: because you fade it, if we aim dead at the pin, the ball lands right and rolls past or into trouble. We need to aim left so your fade brings it back to the center.\n*   **Wait, let's re-evaluate:** Actually, looking at your distances, a 6-iron (168yd) is too far for a 162yd shot where you tend to pull short under pressure. That's a recipe for going long and right. A 7-iron (155yd) is the safest bet. We are aiming for",
+    "elapsed_seconds": 16.928597927093506,
+    "expected_club": "7i",
+    "tests": [
+      "mentions distance",
+      "recommends a club",
+      "shows reasoning"
+    ]
+  },
+  {
+    "scenario_id": "high_wind",
+    "name": "High Wind Scenario",
+    "input": "150 yards out, fairway lie. Pin is center. Wind is really strong today, coming from the left.",
+    "response": "**Club:** 7-iron\n**Target:** Aim left-center of the green, maybe even slightly into the rough on the left side if you're feeling confident.\n**Reasoning:** Okay Jimmy, let's break this down. We've got a 150-yard approach with a 20mph wind from the left (a solid crosswind).\n\nFirst, look at your bag: Your 7-iron is your 155yd carry distance. That's our baseline.\nNow, the wind factor. You said it's coming from the left. Since you're a right-handed fade player, that wind will actually push your ball *towards* your natural shape (right to left... wait, no). Let's re-verify: A fade curves **left-to-right**. The wind is coming from the **left** (blowing right). So the wind is hitting your face/side and pushing you further right. This is a nightmare scenario for a fade. The wind will add significant drift to your right, exactly where you tend to miss anyway.\n\nYou also mentioned that in strong wind, you tend to overcompensate. That's dangerous here. If you try to \"fight\" the wind by aiming hard left, you'll likely pull it offline or hit a low runner that gets blown even more. And remember, under pressure with irons, you pull short.\n\nSo, we need to account for:\n1.  **Your Tendency:** You miss right. Wind pushes right. That's a double whammy. We have to aim left to counteract the wind drift *and* your natural fade.\n2.  **Wind Effect:** A 20mph crosswind at this distance is going to push the ball several yards. Since it's blowing from the left, it adds to the rightward drift of your fade.\n3.  **Fatigue/Pressure:** You're on the back 9 (or getting there), and you pull short under pressure. We need a club that gives us a little buffer so if we hit it a bit thin or slow, we don't come up short.\n\nYour 7-iron is 155yd carry. At 150 yards to the pin, we are in the \"comfort zone\" for a 7, but we need to be careful. If we go to an 8-iron (143yd), and you pull short (which you do under pressure), we",
+    "elapsed_seconds": 12.814664840698242,
+    "expected_club": "6i or 7i",
+    "tests": [
+      "mentions wind adjustment",
+      "adjusts aim for crosswind",
+      "shows yard adjustment"
+    ]
+  },
+  {
+    "scenario_id": "altitude",
+    "name": "Altitude - Mountain Course",
+    "input": "155 yards to the pin, good lie on the fairway. Playing a mountain course today.",
+    "response": "**Club:** 7-iron\n**Target:** Center of the green, slightly left of the flag\n**Reasoning:** \nOkay, let's crunch some numbers for this one. We're at 155 yards to the pin. \n\nFirst, the altitude factor: You're at 5,000 feet, which is a massive boost. The air is thin, so the ball flies about 10-12% further than usual. That means your standard carry distances are going to feel like you're hitting a club two or three sizes bigger.\n\nLooking at your bag:\n*   Your **7-iron** usually goes **155 yards carry**. At altitude, that's going to fly closer to **170-175 yards**. That's too much for 155.\n*   Your **8-iron** usually goes **143 yards carry**. At altitude, that pushes to about **155-160 yards**.\n\nSo, a standard 7-iron is going to leave you over the green, especially with your tendency to miss right (which often means rolling further on firm mountain greens). We need to play an 8-iron. \n\nAlso, remember the \"Back 9\" rule: You mentioned you lose 3-5 yards on irons later in the round. Even though we are only on hole 5, the altitude effect can sometimes feel like a fatigue factor because the ball flies so fast you have to trust your swing more. But mostly, it's the wind and heat. Wait, actually, let's look at conditions: 3mph from North is negligible for distance, just a tiny nudge.\n\nBut here's the kicker: You tend to pull shots short under pressure. If we play an 8-iron and you pull it, you might come up short. However, if we play a 7-iron (155 raw) at altitude, you'll likely fly it 10 yards past the pin. A putt from 30 feet is harder than a chip from 20 feet on a fast mountain green.\n\n**Wait, let me re-evaluate.**\nYour 7-iron is 155 carry *standard*. At 5,000 ft, that's roughly +15 yards. So 155 becomes 170.\nYour 8-iron is 143 carry *standard*. At 5",
+    "elapsed_seconds": 12.948784828186035,
+    "expected_club": "8i or 9i",
+    "tests": [
+      "mentions altitude effect",
+      "recommends less club",
+      "explains ball flies further"
+    ]
+  },
+  {
+    "scenario_id": "tucked_pin_hazards",
+    "name": "Tucked Pin with Hazards",
+    "input": "168 yards, pin is tucked back-right behind a bunker. Water right of the green. Light rough lie.",
+    "response": "**Club:** 6-iron\n**Target:** Center-left of the green, aiming just left of that back-right pin position.\n**Reasoning:** Alright Jimmy, let's break this down. The raw distance is **168 yards**. But remember our agent alert? We're in the back 9 now, and you've been hitting irons about 3-5 yards short due to fatigue. So, we treat that 168 as a **171-yard** shot for club selection purposes.\n\nLooking at your bag:\n*   Your normal 6-iron is **168yd carry**.\n*   With the fatigue adjustment (+3yds), that 6-iron effectively plays like a **171-yard** shot.\n*   Your 5-iron is **180yd carry**. Even with fatigue, that's pushing it to **183**, which is way too long for a pin tucked back-right behind a bunker. We don't want to run over the green or hit the water on the right if we miss left.\n\nAlso, you mentioned a light rough lie. That usually saps a couple of yards and kills spin, so playing the 6-iron (which is shorter than your 5) gives us a bit more margin for error on distance control. Plus, since you tend to fade (curve right), aiming slightly left ensures that if you do hit a little fade, the ball curves back toward the center of the green rather than into the water on the right or the bunker behind the pin.\n\n**Miss Strategy:**\n*   **Safe Miss:** If you hit it slightly long, you want to be well short of the green but left of the water. If you miss short, aim for the middle of the green.\n*   **Danger Zone:** Do not try to force a draw or aim at the pin directly. With that fade shape and the wind (8mph SW), a rightward drift could push you into the water. If you hit it right, you're in trouble. If you hit it left, you're safe on the fairway or short of the bunker.\n*   **The Play:** Hit it smooth, don't try to overpower that 168. Let the club do the work. Aim at the center-left fringe, let the fade bring it back toward the pin, and leave yourself a decent par putt. We're playing for a bogey here if needed, but a",
+    "elapsed_seconds": 13.121632099151611,
+    "expected_club": "6i",
+    "tests": [
+      "mentions water danger",
+      "suggests aiming away from water",
+      "has miss strategy",
+      "accounts for rough"
+    ]
+  },
+  {
+    "scenario_id": "between_clubs",
+    "name": "Between Clubs Decision",
+    "input": "160 yards, dead center pin, no wind, flat lie on the fairway. I'm right between clubs here.",
+    "response": "**Club:** 6-iron\n**Target:** Dead center of the green, maybe a hair left to account for your fade\n**Reasoning:** Okay, let's do the math. Your raw 6-iron is 168 yards carry, and the pin is dead at 160. That's an 8-yard difference right out of the gate. Since you're on a flat lie with no wind, we don't need to add any yards for elevation or weather.\n\nHowever, here are the two big factors I'm weighing:\n1.  **Your Tendency:** You mentioned you tend to miss right with irons. If I tell you to hit your full 6-iron (which goes 168), and you fade it naturally, that ball is going to finish well past the pin on the right side. That's a long putt or a tricky chip.\n2.  **The \"Under Pressure\" Factor:** You said you pull short when under pressure. If I tell you to \"hit it 160\" and you subconsciously choke up, you might leave it at 150, which is way too short of a front pin.\n\nSo, the 7-iron (155 carry) is actually the safer play. It's only 5 yards short of your max distance, but it gives you that 3-yard buffer for your fade to bring it back to the hole. If you hit your full 6-iron and it fades right, you're likely in trouble. If you take a little air off the 7-iron (hit it 95% swing) or even just let it go and it fades 3-4 yards, you land it on the green.\n\nAlso, we're on the back 9 (Hole 8), so your irons are losing about 3-5 yards of distance compared to the morning. That 168-yard carry might actually play like a 163 or 164 right now. That makes the 7-iron look even more attractive because it's closer to the target than the \"full\" 6-iron would be.\n\n**Miss Strategy:** Aim for the center-left of the green.\n*   **Safe Miss:** If you hit a little fat or thin, you want it to finish on the left side where the grass is likely open. A miss right into the pin's path is bad.\n*   **",
+    "elapsed_seconds": 13.016002893447876,
+    "expected_club": "7i or 6i",
+    "tests": [
+      "acknowledges between clubs",
+      "commits to one recommendation",
+      "explains tradeoff"
+    ]
+  },
+  {
+    "scenario_id": "bad_lie_rough",
+    "name": "Deep Rough",
+    "input": "145 yards to the pin, I'm in some deep rough. Ball is sitting down. Pin is front of the green.",
+    "response": "**Club:** 7-iron (or maybe a pitching wedge if you feel really fresh, but I'd bank on the 7)\n**Target:** Aim about 10 yards left of that pin.\n**Reasoning:** Okay Jimmy, let's break this down. First off, we're in the deep rough. That's going to rob us of distance and spin, so even though it's a \"sitting down\" lie, don't trust you'll get full carry.\n\nLet's look at the math:\n1.  **Raw Distance:** You're hitting 155 yards with a 7-iron normally.\n2.  **Rough Factor:** Deep rough typically kills about 3-5 yards of carry and adds drag. Let's be conservative and say we lose another 4 yards. That brings our effective distance down to roughly 151 yards *if* we were hitting fresh.\n3.  **Fatigue Adjustment:** Here's the kicker\u2014you're in the back 9 now. My data says you're losing 3-5 yards on irons due to fatigue, and the agent is telling me to add that buffer right now. So, we need to treat this shot as if it's 158 yards (155 + 3 for rough + 0 for wind? Wait, let's re-align).\n\n*Correction:* Let's look at it from the \"Club UP\" perspective you asked for.\nYour **7-iron** normally goes 155 carry.\nMinus ~4 yards for rough = 151 yards effective.\nPlus 3 yards for fatigue (meaning you'll hit it shorter, so you need to aim higher)? No, wait, let's flip it. If you lose distance, your 7-iron might only go 148 yards *today* in this lie. That leaves us short of the 155-yard target.\n\nSo, if we take a **Pitching Wedge** (normally 118 carry), that's way too short.\nIf we take the **7-iron**, it should fly about 151 yards effective. We need to cover 155 yards. That's a 4-yard gap.\n\n*Wait, let's re-read your profile:* \"Under pressure: pulls short.\" And \"In wind: overcompensates.\"\nWind is 5mph East (crosswind). Since you fade right,",
+    "elapsed_seconds": 13.14885687828064,
+    "expected_club": "7i or 6i",
+    "tests": [
+      "mentions rough penalty",
+      "adjusts distance for lie",
+      "advises on expectations from rough"
+    ]
+  },
+  {
+    "scenario_id": "fairway_bunker",
+    "name": "Fairway Bunker",
+    "input": "165 yards from a fairway bunker. Ball is sitting clean on the sand. Pin is back-left.",
+    "response": "**Club:** 7-iron\n**Target:** Left-center of the green (aiming slightly left of the pin)\n**Reasoning:** Okay, let's break this down, Jimmy. We're at 165 yards flat to the center, but you're in a fairway bunker with a clean lie. That's great news; the sand won't grab it like rough would, so we can get close to your normal carry distance.\n\nHere's the math on where that ball is going to go:\n1.  **Base Distance:** Your 7-iron is a 155-yard carry. At 165, you're looking at a gap of about 10 yards. That's usually enough for a 6-iron (168y), but we have compounding factors.\n2.  **Bunker Factor:** Even with a clean lie, there's always a tiny bit of friction from the clubface digging in slightly before launch. Let's shave about 5 yards off your carry. That puts your 7-iron effective carry at ~150 yards.\n3.  **Wind & Conditions:** It's 75\u00b0F and 6mph out of the NW. The wind is a headwind for us (assuming we're facing somewhat south or SE on this hole, which is standard for \"back-left\" pins on most layouts relative to the tee). A 6mph headwind adds about 3-4 yards of carry needed.\n    *   *Wait, let me re-evaluate that wind direction.* If the pin is back-left and we are in a fairway bunker, usually you're hitting somewhat perpendicular or slightly into the wind depending on hole design. Let's assume standard \"into the wind\" adjustment for safety. That 6mph headwind eats about 5 yards of carry.\n    *   So, your 7-iron (155) - 5 (bunker friction) + 5 (headwind) = **155 yards effective.** That's still short.\n4.  **The \"Fatigue\" & \"Pressure\" Factor:** This is the 4th hole, so you're fresh, BUT your profile says you \"pull short under pressure\" and lose 3-5 yards on irons on the back 9 (even though this is front 9, the *habit* of pulling short under pressure applies to bunker shots where confidence drops).\n5.",
+    "elapsed_seconds": 12.761585235595703,
+    "expected_club": "6i or 5i",
+    "tests": [
+      "mentions bunker adjustments",
+      "advises clean contact first",
+      "adjusts distance"
+    ]
+  },
+  {
+    "scenario_id": "back_nine_fatigue",
+    "name": "Back 9 Fatigue",
+    "input": "155 yards, fairway, good lie. Feeling a bit tired out here.",
+    "response": "**Club:** 7-iron\n**Target:** Left-center of the green, about 10 feet left of the pin (if it's straight on). Let's play a little fade to work it back to the hole.\n**Reasoning:** Alright Jimmy, listen up. We've got 155 yards out there, which is spot-on for your normal 7-iron carry. But here's the deal: you're on the back nine, and we know those irons are dragging about 4 yards because of the fatigue. So, that 155-yard shot is actually playing like a **159-yard** shot in your mind right now.\n\nIf we stick with the 7-iron (normal carry 155), you're gonna hit it around 151 yards and be short. That's exactly what happens when you get tired. So, we need to account for that loss.\n*   **Target Distance:** 159 yards (Adjusted for fatigue).\n*   **Your Bag:** Your 7-iron normally goes 155 carry / 165 total. That's a perfect match for the adjusted distance.\n*   **Shot Shape:** You're a fairader, and with your tendency to miss right, we want to play a controlled fade left-to-right. If you aim slightly left of the pin, a gentle fade will curve it back toward the center or even catch the hole if you get lucky.\n*   **Conditions:** 85 degrees is hot, so the ball will fly a tiny bit further than usual, but that fatigue factor outweighs the heat right now. We need to trust the club selection over the feel.\n\n**Miss Strategy:** Since you tend to miss right with irons and we're playing a fade, our \"safe\" miss is slightly left of the pin or just short-left. If you pull it left (your other tendency), that's safer than pushing it right into the bunker/rough on the edge. Just keep your swing smooth; don't try to muscle it back to normal distance. Let the 7-iron do the work, even if it feels a little heavy in your hands. We're playing for a bogey save here, not a birdie bomb.",
+    "elapsed_seconds": 12.107502222061157,
+    "expected_club": "6i",
+    "tests": [
+      "references back 9 tendency",
+      "adjusts for fatigue",
+      "clubs up"
+    ]
+  },
+  {
+    "scenario_id": "course_management_par5",
+    "name": "Par 5 Layup vs Go-for-it",
+    "input": "230 yards to the pin on a par 5. Water in front of the green. I hit my 3-wood 210 carry. What do you think, go for it or lay up?",
+    "response": "**Club:** Driver (Aim for the fairway, not the pin)\n**Target:** The middle-left of the fairway, about 215-220 yards out.\n**Reasoning:** Look, Jimmy, I know you're tempted to go for it with that 3-wood. It's a par 5, and you want to make birdie. But let's look at the math and your game right now.\n\nYou said your 3-wood carries 210 yards. The pin is 230. That leaves you 20 yards short of the green.\nHere's where it gets tricky: You're on the back nine, and we know your irons are losing 3 to 5 yards right now due to fatigue. If you lay up with a wedge, you're looking at an approach shot that plays like it's 20-25 yards longer than usual because of the wind (10mph headwind from N) and your tired swing.\nIf you try to carry the water with a 3-wood, you need to hit it 230+. Your max is 210. Even if you get perfect contact, you're likely ending up in that water or just short of it, leaving you a 50-yard chip over the water. That's a nightmare scenario for a 15 handicap.\nPlus, your fade shape works against you here. If you try to muscle a 3-wood out there, any slight push could find that water.\n\nThe smart play is to take the safe drive, hit it about 240 total (your driver range), and then lay up with a wedge or short iron to a spot that leaves you a comfortable 150 yards for your third shot.\nWait, let's re-calculate that lay-up. If we drive 240, we have 90 yards left? No, that's too close. Let's aim for a club you can hit comfortably.\nActually, let's look at the \"plays-like\" distance again.\nDistance to pin: 230 yds.\nYour 3-wood carry: 210 yds.\nGap: 20 yds.\nWind: 10mph headwind. This kills distance on a full swing. That 210 might become 195 in this wind.\nResult: You'd be 35",
+    "elapsed_seconds": 12.923623085021973,
+    "expected_club": "layup recommendation",
+    "tests": [
+      "analyzes risk/reward",
+      "considers water",
+      "makes a clear recommendation",
+      "if layup suggests target distance"
+    ]
+  },
+  {
+    "scenario_id": "pressure_situation",
+    "name": "Pressure Situation - Breaking Target Score",
+    "input": "140 yards, fairway, good lie. Need par here to break 85.",
+    "response": "**Club:** 7-iron\n**Target:** Center-right of the green, slightly left of the pin (aiming for the safe side)\n**Reasoning:** Okay Jimmy, let's crunch the numbers here. The yardage is 140 yards, but we gotta remember that fatigue hit us hard on the back nine. Your profile says you're losing about 3 to 5 yards on irons right now, so I'm adjusting your effective carry distances up by 4 yards for this round.\n\nNormally, your 7-iron carries 155 yards. But with that fatigue factor, we have to treat a 155-yard club as if it's only going 151 yards (155 minus the 4-yard loss).\nHowever, we need to get the ball *to* the target, which is 140 yards away.\nWait, let me rephrase that logic so you don't get confused: Your *actual* carry with a 7-iron right now is roughly **151 yards** (155 base - 4 fatigue). Since 151 is still longer than our 140-yard target, the 7-iron is the play.\n\nHere's the kicker: You mentioned you tend to miss right with irons. If we aim at the pin and hit a little slice, that ball could roll off the green or into trouble on the right side. So, even though the 7-iron has enough distance, we need to play a **fade** (your natural shape) from left to right.\n\nSo, here's the plan:\n1. Aim about 10-15 yards left of the pin.\n2. Hit your normal fade shot shape.\n3. The ball will drift back toward the center/right, which is where we want it to finish.\n4. If you hit a little short (which happens under pressure), you'll be in the middle of the green, not short-left in the bunker.\n\n**Miss Strategy:** We are playing for the safe miss. Since your natural shape is a fade, aiming left ensures that even if you don't hit it perfectly straight, the ball curves *back* into the target area. The only way to really mess this up is if you try to force a draw or hit a hook; that sends it way right. So, just swing smooth, aim left, and let the fade do its work. We need",
+    "elapsed_seconds": 13.107252836227417,
+    "expected_club": "9i or PW",
+    "tests": [
+      "acknowledges pressure situation",
+      "references under_pressure tendency",
+      "conservative strategy"
+    ]
+  }
+]

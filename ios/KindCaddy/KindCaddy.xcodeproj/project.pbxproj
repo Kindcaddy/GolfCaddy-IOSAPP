@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001 /* KindCaddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000001 /* KindCaddyApp.swift */; };
+		AA000002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000002 /* Models.swift */; };
+		AA000003 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000003 /* AppState.swift */; };
+		AA000004 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000004 /* APIClient.swift */; };
+		AA000005 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000005 /* SpeechRecognizer.swift */; };
+		AA000006 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000006 /* SetupView.swift */; };
+		AA000007 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000007 /* RoundView.swift */; };
+		AA000008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB000008 /* Assets.xcassets */; };
+		AA000009 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000011 /* Config.swift */; };
+		AA000010 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000012 /* LocationManager.swift */; };
+		AA000011 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000013 /* Theme.swift */; };
+		AA000012 /* WeatherKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000014 /* WeatherKitService.swift */; };
+		AA000013 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000016 /* AuthManager.swift */; };
+		AA000014 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000017 /* LoginView.swift */; };
+		AA000015 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000018 /* KeychainHelper.swift */; };
+		AA000016 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000019 /* HistoryView.swift */; };
+		AA000017 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000020 /* InsightsView.swift */; };
+		AA000018 /* RoundDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000021 /* RoundDetailView.swift */; };
+		AA000019 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000022 /* StatsView.swift */; };
+		AA000020 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000023 /* ProfileView.swift */; };
+		AA000021 /* FullProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000024 /* FullProfileView.swift */; };
+		AA000026 /* LegalAndSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000027 /* LegalAndSupport.swift */; };
+		AA000027 /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000028 /* SubscriptionManager.swift */; };
+		AA000028 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000029 /* PaywallView.swift */; };
+		AA000029 /* ChatCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000030 /* ChatCache.swift */; };
+		AA000031 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AB000031 /* PrivacyInfo.xcprivacy */; };
+		AA000032 /* AIDataConsent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000032 /* AIDataConsent.swift */; };
+		AA000033 /* WeatherAttributionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000033 /* WeatherAttributionView.swift */; };
+		AB000025 /* HeadsetRemoteCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000026 /* HeadsetRemoteCoordinator.swift */; };
+		BFAFEDF42F723CA700C662C1 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = BFAFEDF32F723CA700C662C1 /* GoogleSignIn */; };
+		BFAFEDF62F723CA700C662C1 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BFAFEDF52F723CA700C662C1 /* GoogleSignInSwift */; };
+		BFB67CAA2F7CC63D00651D85 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB67CA92F7CC63D00651D85 /* HomeView.swift */; };
+		BFB67CAC2F7CC65100651D85 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB67CAB2F7CC65100651D85 /* OnboardingView.swift */; };
+		BFB67CB22F7CC7CF00651D85 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB67CB12F7CC7CF00651D85 /* NetworkMonitor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB000001 /* KindCaddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindCaddyApp.swift; sourceTree = "<group>"; };
+		AB000002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AB000003 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		AB000004 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		AB000005 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		AB000006 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		AB000007 /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
+		AB000008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB000009 /* KindCaddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindCaddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB000010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB000011 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		AB000012 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		AB000013 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AB000014 /* WeatherKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherKitService.swift; sourceTree = "<group>"; };
+		AB000015 /* KindCaddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KindCaddy.entitlements; sourceTree = "<group>"; };
+		AB000016 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		AB000017 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AB000018 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		AB000019 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		AB000020 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		AB000021 /* RoundDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundDetailView.swift; sourceTree = "<group>"; };
+		AB000022 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		AB000023 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AB000024 /* FullProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullProfileView.swift; sourceTree = "<group>"; };
+		AB000026 /* HeadsetRemoteCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadsetRemoteCoordinator.swift; sourceTree = "<group>"; };
+		AB000027 /* LegalAndSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalAndSupport.swift; sourceTree = "<group>"; };
+		AB000028 /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
+		AB000029 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		AB000030 /* ChatCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCache.swift; sourceTree = "<group>"; };
+		AB000031 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		AB000032 /* AIDataConsent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIDataConsent.swift; sourceTree = "<group>"; };
+		AB000033 /* WeatherAttributionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAttributionView.swift; sourceTree = "<group>"; };
+		BFAFEDF12F71AE5400C662C1 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		BFB67CA92F7CC63D00651D85 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BFB67CAB2F7CC65100651D85 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		BFB67CB12F7CC7CF00651D85 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAFEDF42F723CA700C662C1 /* GoogleSignIn in Frameworks */,
+				BFAFEDF62F723CA700C662C1 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD000001 = {
+			isa = PBXGroup;
+			children = (
+				BFB67CB12F7CC7CF00651D85 /* NetworkMonitor.swift */,
+				BFB67CAB2F7CC65100651D85 /* OnboardingView.swift */,
+				BFB67CA92F7CC63D00651D85 /* HomeView.swift */,
+				AD000002 /* KindCaddy */,
+				AD000003 /* Products */,
+				BFAFEDF12F71AE5400C662C1 /* Secrets.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		AD000002 /* KindCaddy */ = {
+			isa = PBXGroup;
+			children = (
+				AB000001 /* KindCaddyApp.swift */,
+				AB000011 /* Config.swift */,
+				AB000002 /* Models.swift */,
+				AB000003 /* AppState.swift */,
+				AB000004 /* APIClient.swift */,
+				AB000005 /* SpeechRecognizer.swift */,
+				AB000026 /* HeadsetRemoteCoordinator.swift */,
+				AB000006 /* SetupView.swift */,
+				AB000007 /* RoundView.swift */,
+				AB000012 /* LocationManager.swift */,
+				AB000013 /* Theme.swift */,
+				AB000014 /* WeatherKitService.swift */,
+				AB000033 /* WeatherAttributionView.swift */,
+				AB000016 /* AuthManager.swift */,
+				AB000017 /* LoginView.swift */,
+				AB000028 /* SubscriptionManager.swift */,
+				AB000029 /* PaywallView.swift */,
+				AB000027 /* LegalAndSupport.swift */,
+				AB000032 /* AIDataConsent.swift */,
+				AB000018 /* KeychainHelper.swift */,
+				AB000019 /* HistoryView.swift */,
+				AB000020 /* InsightsView.swift */,
+				AB000021 /* RoundDetailView.swift */,
+				AB000022 /* StatsView.swift */,
+				AB000023 /* ProfileView.swift */,
+				AB000024 /* FullProfileView.swift */,
+				AB000030 /* ChatCache.swift */,
+				AB000015 /* KindCaddy.entitlements */,
+				AB000031 /* PrivacyInfo.xcprivacy */,
+				AB000008 /* Assets.xcassets */,
+				AB000010 /* Info.plist */,
+			);
+			path = KindCaddy;
+			sourceTree = "<group>";
+		};
+		AD000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB000009 /* KindCaddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE000001 /* KindCaddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF000003 /* Build configuration list for PBXNativeTarget "KindCaddy" */;
+			buildPhases = (
+				AE000002 /* Sources */,
+				AC000001 /* Frameworks */,
+				AE000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KindCaddy;
+			productName = KindCaddy;
+			productReference = AB000009 /* KindCaddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE000004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AE000001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = AF000001 /* Build configuration list for PBXProject "KindCaddy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD000001;
+			packageReferences = (
+				BFAFEDF22F723CA700C662C1 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = AD000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE000001 /* KindCaddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000008 /* Assets.xcassets in Resources */,
+				AA000031 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001 /* KindCaddyApp.swift in Sources */,
+				AA000002 /* Models.swift in Sources */,
+				AA000003 /* AppState.swift in Sources */,
+				AA000004 /* APIClient.swift in Sources */,
+				AA000005 /* SpeechRecognizer.swift in Sources */,
+				AA000006 /* SetupView.swift in Sources */,
+				AA000007 /* RoundView.swift in Sources */,
+				AA000009 /* Config.swift in Sources */,
+				AA000010 /* LocationManager.swift in Sources */,
+				AA000011 /* Theme.swift in Sources */,
+				AA000012 /* WeatherKitService.swift in Sources */,
+				AA000033 /* WeatherAttributionView.swift in Sources */,
+				AA000013 /* AuthManager.swift in Sources */,
+				AA000014 /* LoginView.swift in Sources */,
+				AA000026 /* LegalAndSupport.swift in Sources */,
+				AA000032 /* AIDataConsent.swift in Sources */,
+				AA000015 /* KeychainHelper.swift in Sources */,
+				AA000016 /* HistoryView.swift in Sources */,
+				BFB67CAA2F7CC63D00651D85 /* HomeView.swift in Sources */,
+				AA000017 /* InsightsView.swift in Sources */,
+				AA000018 /* RoundDetailView.swift in Sources */,
+				AA000019 /* StatsView.swift in Sources */,
+				AA000020 /* ProfileView.swift in Sources */,
+				AA000021 /* FullProfileView.swift in Sources */,
+				AA000027 /* SubscriptionManager.swift in Sources */,
+				AA000028 /* PaywallView.swift in Sources */,
+				AA000029 /* ChatCache.swift in Sources */,
+				BFB67CAC2F7CC65100651D85 /* OnboardingView.swift in Sources */,
+				BFB67CB22F7CC7CF00651D85 /* NetworkMonitor.swift in Sources */,
+				AB000025 /* HeadsetRemoteCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFAFEDF12F71AE5400C662C1 /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFAFEDF12F71AE5400C662C1 /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFAFEDF12F71AE5400C662C1 /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KindCaddy/KindCaddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_TEAM = ZRV559M69D;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = KindCaddy/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kindcaddy.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFAFEDF12F71AE5400C662C1 /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KindCaddy/KindCaddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_TEAM = ZRV559M69D;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = KindCaddy/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kindcaddy.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF000001 /* Build configuration list for PBXProject "KindCaddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF000004 /* Debug */,
+				AF000005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF000003 /* Build configuration list for PBXNativeTarget "KindCaddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF000006 /* Debug */,
+				AF000007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BFAFEDF22F723CA700C662C1 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BFAFEDF32F723CA700C662C1 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFAFEDF22F723CA700C662C1 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		BFAFEDF52F723CA700C662C1 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFAFEDF22F723CA700C662C1 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AE000004 /* Project object */;
+}

@@ -1,0 +1,16 @@
+[Unit]
+Description=KindCaddy FastAPI API
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/KindCaddy
+Environment="PATH=/home/ubuntu/KindCaddy/venv/bin"
+EnvironmentFile=/home/ubuntu/KindCaddy/.env
+ExecStart=/home/ubuntu/KindCaddy/venv/bin/uvicorn kindcaddy.api:app --host 127.0.0.1 --port 8000
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

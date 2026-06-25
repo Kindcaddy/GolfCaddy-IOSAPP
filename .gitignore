@@ -1,0 +1,53 @@
+# Secrets — never commit
+ios/KindCaddy/Secrets.xcconfig
+!ios/KindCaddy/Secrets.xcconfig.example
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.mobileprovision
+*secret*.json
+*credentials*.json
+firebase-adminsdk*.json
+google-services.json
+GoogleService-Info.plist
+**/apikeys.*
+**/api_keys.*
+**/.secrets*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.venv*/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Data / logs
+data/
+*.log
+
+# Archives / build artifacts
+*.tar.gz
+
+# macOS
+.DS_Store
+
+# Xcode
+*.xcuserdata
+xcuserdata/
+DerivedData/
+build/
+
+# On-device LLM (third-party, fetched separately — see README)
+ios/vendor/
+*.gguf
+
+# Editor / agent tooling
+.claude/
+.cursor/

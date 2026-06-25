@@ -1,0 +1,103 @@
+[
+  {
+    "id": "baseline_approach",
+    "name": "Standard Approach Shot",
+    "description": "Basic approach shot to validate core reasoning",
+    "input": "162 yards to the pin, sitting on the fairway, good lie. Pin is middle of the green.",
+    "weather": {"temp_f": 72, "wind_speed_mph": 5, "wind_deg": 180, "humidity": 50},
+    "hole": 7,
+    "expected_club": "7i",
+    "tests": ["mentions distance", "recommends a club", "shows reasoning"]
+  },
+  {
+    "id": "high_wind",
+    "name": "High Wind Scenario",
+    "description": "Tests wind adjustment calculations",
+    "input": "150 yards out, fairway lie. Pin is center. Wind is really strong today, coming from the left.",
+    "weather": {"temp_f": 68, "wind_speed_mph": 20, "wind_deg": 270, "humidity": 45},
+    "hole": 3,
+    "expected_club": "6i or 7i",
+    "tests": ["mentions wind adjustment", "adjusts aim for crosswind", "shows yard adjustment"]
+  },
+  {
+    "id": "altitude",
+    "name": "Altitude - Mountain Course",
+    "description": "Tests altitude adjustment (ball flies further in thin air)",
+    "input": "155 yards to the pin, good lie on the fairway. Playing a mountain course today.",
+    "weather": {"temp_f": 65, "wind_speed_mph": 3, "wind_deg": 0, "humidity": 30},
+    "altitude_ft": 5000,
+    "hole": 5,
+    "expected_club": "8i or 9i",
+    "tests": ["mentions altitude effect", "recommends less club", "explains ball flies further"]
+  },
+  {
+    "id": "tucked_pin_hazards",
+    "name": "Tucked Pin with Hazards",
+    "description": "Tests miss strategy and course management",
+    "input": "168 yards, pin is tucked back-right behind a bunker. Water right of the green. Light rough lie.",
+    "weather": {"temp_f": 78, "wind_speed_mph": 8, "wind_deg": 225, "humidity": 60},
+    "hole": 12,
+    "expected_club": "6i",
+    "tests": ["mentions water danger", "suggests aiming away from water", "has miss strategy", "accounts for rough"]
+  },
+  {
+    "id": "between_clubs",
+    "name": "Between Clubs Decision",
+    "description": "Tests nuanced club selection when between distances",
+    "input": "160 yards, dead center pin, no wind, flat lie on the fairway. I'm right between clubs here.",
+    "weather": {"temp_f": 75, "wind_speed_mph": 0, "wind_deg": 0, "humidity": 50},
+    "hole": 8,
+    "expected_club": "7i or 6i",
+    "tests": ["acknowledges between clubs", "commits to one recommendation", "explains tradeoff"]
+  },
+  {
+    "id": "bad_lie_rough",
+    "name": "Deep Rough",
+    "description": "Tests lie adjustment for bad lies",
+    "input": "145 yards to the pin, I'm in some deep rough. Ball is sitting down. Pin is front of the green.",
+    "weather": {"temp_f": 80, "wind_speed_mph": 5, "wind_deg": 90, "humidity": 65},
+    "hole": 14,
+    "expected_club": "7i or 6i",
+    "tests": ["mentions rough penalty", "adjusts distance for lie", "advises on expectations from rough"]
+  },
+  {
+    "id": "fairway_bunker",
+    "name": "Fairway Bunker",
+    "description": "Tests fairway bunker strategy",
+    "input": "165 yards from a fairway bunker. Ball is sitting clean on the sand. Pin is back-left.",
+    "weather": {"temp_f": 75, "wind_speed_mph": 6, "wind_deg": 315, "humidity": 50},
+    "hole": 4,
+    "expected_club": "6i or 5i",
+    "tests": ["mentions bunker adjustments", "advises clean contact first", "adjusts distance"]
+  },
+  {
+    "id": "back_nine_fatigue",
+    "name": "Back 9 Fatigue",
+    "description": "Tests awareness of fatigue tendencies from profile",
+    "input": "155 yards, fairway, good lie. Feeling a bit tired out here.",
+    "weather": {"temp_f": 85, "wind_speed_mph": 4, "wind_deg": 180, "humidity": 70},
+    "hole": 16,
+    "expected_club": "6i",
+    "tests": ["references back 9 tendency", "adjusts for fatigue", "clubs up"]
+  },
+  {
+    "id": "course_management_par5",
+    "name": "Par 5 Layup vs Go-for-it",
+    "description": "Tests strategic course management decision",
+    "input": "230 yards to the pin on a par 5. Water in front of the green. I hit my 3-wood 210 carry. What do you think, go for it or lay up?",
+    "weather": {"temp_f": 75, "wind_speed_mph": 10, "wind_deg": 0, "humidity": 50},
+    "hole": 15,
+    "expected_club": "layup recommendation",
+    "tests": ["analyzes risk/reward", "considers water", "makes a clear recommendation", "if layup suggests target distance"]
+  },
+  {
+    "id": "pressure_situation",
+    "name": "Pressure Situation - Breaking Target Score",
+    "description": "Tests awareness of scoring context and pressure tendencies",
+    "input": "140 yards, fairway, good lie. Need par here to break 85.",
+    "weather": {"temp_f": 72, "wind_speed_mph": 6, "wind_deg": 45, "humidity": 55},
+    "hole": 18,
+    "expected_club": "9i or PW",
+    "tests": ["acknowledges pressure situation", "references under_pressure tendency", "conservative strategy"]
+  }
+]

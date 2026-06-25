@@ -1,0 +1,35 @@
+{
+  "name": "Jimmy",
+  "handicap": 15,
+  "shot_shape": "fade",
+  "handed": "right",
+  "chat_style": "casual",
+  "target_score": 85,
+  "physical": {
+    "gender": "male",
+    "age_group": "athletic 30s",
+    "driver_clubhead_speed_mph": 105,
+    "workout_frequency": "2x/week",
+    "practice_frequency": "2x/week range sessions"
+  },
+  "clubs": {
+    "Driver": {"carry": 230, "total": 250},
+    "3W": {"carry": 210, "total": 225},
+    "4H": {"carry": 195, "total": 210},
+    "5i": {"carry": 180, "total": 192},
+    "6i": {"carry": 168, "total": 178},
+    "7i": {"carry": 155, "total": 165},
+    "8i": {"carry": 143, "total": 152},
+    "9i": {"carry": 130, "total": 138},
+    "PW": {"carry": 118, "total": 125},
+    "52": {"carry": 100, "total": 105},
+    "56": {"carry": 80, "total": 83},
+    "60": {"carry": 60, "total": 62}
+  },
+  "tendencies": {
+    "under_pressure": "pulls short",
+    "back_nine": "loses 3-5 yards on irons",
+    "wind": "overcompensates into wind",
+    "general": "tends to miss right with irons"
+  }
+}
